@@ -4,4 +4,6 @@ rm(list = ls())
 
 library(tmap) ; tmap::tmap_mode("view")
 
-data <- data.frame()
+data <- mtcars
+
+tm_shape() + tm_borders()
